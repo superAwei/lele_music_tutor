@@ -1,0 +1,27 @@
+* {
+  // outline: 1px solid  red;
+}
+.test {
+  outline: 1px solid  red;
+}
+.letter-spacing-8{
+  letter-spacing: 8px;
+}
+.letter-spacing-12{
+  letter-spacing: 12px;
+}
+.cursor-pointer {
+  cursor:pointer;
+}
+.btn-primary {
+  color: #ffffff;
+  &:hover {
+    color: #ffffff;
+  }
+}
+.btn-outline-primary {
+  color: #000000;
+  &:hover {
+    color: #ffffff;
+  }
+}

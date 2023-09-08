@@ -1,0 +1,54 @@
+.fc-toolbar-title {
+  color: #ff715f !important;
+}
+.fc-button-primary {
+    color: #ff715f !important;
+    background-color: #ffffff !important;
+    border-color: #ff715f !important;
+    border-radius: 50rem !important;
+    &:hover{
+    background-color: #ff715f !important;
+    color: #ffffff !important;
+    box-shadow: 0!important;
+  }
+}
+.fc-button-primary {
+  &:hover{
+    background-color: #ff715f !important;
+    color: #ffffff !important;
+    box-shadow: 0!important;
+  }
+}
+.fc-button-active {
+  background-color: #ff715f !important;
+  color: #ffffff !important;
+  box-shadow: 0!important;
+}
+.fc-button .fc-icon {
+    vertical-align: middle;
+    font-size: 1.5em;
+    color: #ff715f;
+    &:hover{
+    background-color: #ff715f !important;
+    color: #ffffff !important;
+    box-shadow: 0!important;
+  }
+}
+.fc-event {
+    position: relative;
+    font-size: 0.6em !important;
+    line-height: 1.4 !important;
+    display: block !important;
+    border-radius: 5px;
+    color: #333333;
+    .fc-daygrid-event-dot {
+      display: inline-block !important;
+    }
+    .fc-event-time {
+      display: inline !important;
+      
+    }
+    .fc-event-title {
+      padding-left: 4px;
+    }
+}
